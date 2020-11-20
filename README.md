@@ -1,2 +1,2 @@
 # brownrnoah.github.io
-2550 Class Project 01
+UVU Fall 2020 class Project 01

@@ -1,54 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Noah Brown</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/scripts.js"></script>
+    <link rel='icon' href='/brownrnoah.github.io/images/Me.jpg' type='image/x-icon'/>
+    <title>About Noah Brown</title> 
 </head>
+
 <body>
-    <div>
-        <h1>Noah Brown</h1>
-        <img src="images/Me.jpg" alt="my picture" height="500px" width="500px">
+    <div class="navbar">
+        <div class="innernav">
+            <a href="#info"><div id="info_div" onclick="changeColor('info_div')">Info</div></a>
+            <a href="#books"><div id="books_div" onclick="changeColor('books_div')">Books</div></a>
+            <a href="#poem"><div id="poem_div" onclick="changeColor('poem_div')">Poem</div></a>
+            <a href="#interests"><div id="interests_div" onclick="changeColor('interests_div')">Interests</div></a>
+            <a href="#schedule"><div id="schedule_div" onclick="changeColor('schedule_div')">Schedule</div></a>
+        </div>
     </div>
-    <div>
-        <h2>Personal Info:</h2>
-        <ul>
-            <li><strong>My Major:</strong>  Computer Science</li>
-            <li><strong>My Highschool:</strong> Murphysboro High School</li>
-            <li><strong>College Year:</strong>  Sophmore</li>
-            <li><strong>Favorite Iecream:</strong>  Cookie Dough Icecream</li>
-        </ul>
+    <div class="content">
+        <div>
+            <h1>Noah Brown</h1>
+            <img src="images/Me.jpg" alt="my picture" height="300px" width="300px">
+        </div>
+        <div id="info">
+            <h2>Personal Info:</h2>
+            <ul>
+                <li><strong>My Major:</strong> Computer Science</li>
+                <li><strong>My Highschool:</strong> Murphysboro High School</li>
+                <li><strong>College Year:</strong> Sophmore</li>
+                <li><strong>Favorite Iecream:</strong> Cookie Dough Icecream</li>
+            </ul>
+        </div>
+        <div id="books">
+            <h2>My Five Favoite Books</h2>
+            <ol>
+                <li><em>The Hero and the Crown, </em><a href="http://www.robinmckinleysblog.com/">Robin Mckinley</a>
+                </li>
+                <li><em>The Blue Sword, </em><a href="http://www.robinmckinleysblog.com/">Robin Mckinley</a></li>
+                <li><em>Spice and Wolf, </em><a href="http://spicy-wolf.com/top.html">Isuna Hasekura</a></li>
+                <li><em>Lord of the rings, </em><a href="https://en.wikipedia.org/wiki/J._R._R._Tolkien">J.R.R.
+                        Tolkien</a></li>
+                <li><em>Red Wall, </em><a href="http://www.redwallabbey.com/">Brian Jacques</a></li>
+            </ol>
+        </div>
+        <div id="poem">
+            <h2>Woes of a leaf</h2>
+            <p>I walk a few blocks to work each day, and lately there have been quite a few leaves on the sidewalks.</p>
+            <p id="thepoem"><em>Gently Falling Leaf.<br>Here it lies, eternal sleep.<br>Victim to my feet.</em></p>
+        </div>
+        <div id="interests">
+            <h2>My Personal Interests</h2>
+            <p>One of my biggest interests is Video games, and has been for some time. Recently though I have had a lot
+                of fun playing
+                Call of Duty Modern Warfare with some of my close friends and actually a few co-workers. I feel that
+                they best way to enjoy
+                video games is with friends.
+            </p>
+            <p>Another interest of mine is that of Anime and Manga. I just love the different ways they use to tell
+                stories compared to some
+                western cultures. They do a great job with their world buiding and how immersive those worlds can be.
+                One of my favorite books
+                that I listed is actually a manga called Spice and Wolf.
+            </p>
+            <p>Lastly a huge interest of mine is pets and animals. I love dogs, but unfortunately my current living
+                situation doesn't allow
+                me to own a dog. I currently own two ball pythons which I got only a few months ago. They have already
+                grown quite a bit, and
+                recently just went through their first sheds.
+            </p>
+        </div>
+        <div id="schedule">
+            <h2>Class Schedule</h2>
+            <table>
+                <tr>
+                    <td></td>
+                    <td><strong>Monday</strong></td>
+                    <td><strong>Tuesday</strong></td>
+                    <td><strong>Wednesday</strong></td>
+                    <td><strong>Thursday</strong></td>
+                    <td><strong>Friday</strong></td>
+                </tr>
+                <tr>
+                    <td>12:30</td>
+                    <td rowspan="3" id="cs2420">CS 2420</td>
+                    <td rowspan="3" id="comm2110">COMM 2110</td>
+                    <td rowspan="3" id="cs2420">CS 2420</td>
+                    <td rowspan="3" id="comm2110">COMM 2110</td>
+                    <td rowspan="13" id="homework">Homework</td>
+                </tr>
+                <tr>
+                    <td>1:00</td>
+                </tr>
+                <tr>
+                    <td>1:30</td>
+                </tr>
+                <tr>
+                    <td>2:00</td>
+                    <td></td>
+                    <td rowspan="7" id="work">Work</td>
+                    <td></td>
+                    <td rowspan="7" id="work">Work</td>
+                </tr>
+                <tr>
+                    <td>2:30</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:30</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4:30</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5:30</td>
+                    <td rowspan="3" id="cs2550">CS 2550</td>
+                    <td rowspan="3" id="cs2810">CS 2810</td>
+                    <td rowspan="3" id="cs2550">CS 2550</td>
+                    <td rowspan="3" id="cs2810">CS 2810</td>
+                </tr>
+                <tr>
+                    <td>6:00</td>
+                </tr>
+                <tr>
+                    <td>6:30</td>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div>
-        <h2>My Five Favoite Books</h2>
-        <ol>
-            <li><em>The Hero and the Crown, </em><a href="http://www.robinmckinleysblog.com/">Robin Mckinley</a></li>
-            <li><em>The Blue Sword, </em><a href="http://www.robinmckinleysblog.com/">Robin Mckinley</a></li>
-            <li><em>Spice and Wolf, </em><a href="http://spicy-wolf.com/top.html">Isuna Hasekura</a></li>
-            <li><em>Lord of the rings,  </em><a href="https://en.wikipedia.org/wiki/J._R._R._Tolkien">J.R.R. Tolkien</a></li>
-            <li><em>Red Wall,   </em><a href="http://www.redwallabbey.com/">Brian Jacques</a></li>
-        </ol>
-    </div>
-    <div>
-        <h2>Woes of a leaf</h2>
-        <p>I walk a few blocks to work each day, and lately there have been quite a few leaves on the sidewalks.</p>
-        <p><em>Gently Falling Leaf.<br>Here it lies, eternal sleep.<br>Victim to my feet.</em></p>
-    </div>
-    <div>
-        <h2>My Personal Interests</h2>
-        <p>One of my biggest interests is Video games, and has been for some time. Recently though I have had a lot of fun playing
-            Call of Duty Modern Warfare with some of my close friends and actually a few co-workers. I feel that they best way to enjoy
-            video games is with friends.
-        </p>
-        <p>Another interest of mine is that of Anime and Manga. I just love the different ways they use to tell stories compared to some
-            western cultures. They do a great job with their world buiding and how immersive those worlds can be. One of my favorite books
-            that I listed is actually a manga called Spice and Wolf.
-        </p>
-        <p>Lastly a huge interest of mine is pets and animals. I love dogs, but unfortunately my current living situation doesn't allow
-            me to own a dog. I currently own two ball pythons which I got only a few months ago. They have already grown quite a bit, and
-            recently just went through their first sheds. 
-        </p>
-    </div>
-    
+    <div class="footer">Copyright &copy; 2020 &#8211; Noah Brown</div>
 </body>
+
 </html>

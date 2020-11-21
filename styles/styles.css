@@ -1,0 +1,122 @@
+html {
+    scroll-padding-top: 70px;
+    scroll-padding-bottom: 70px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-image: url(/brownrnoah.github.io/images/long-vertical.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body img {
+    margin-left: 50px;
+    border-radius: 5mm;
+}
+
+.navbar {
+    font-size: 20px;
+    top: 0px;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(78,103,133);
+}
+
+.innernav {
+    float: right;
+    padding-right: 50px;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innernav div {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.innernav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.innernav div:hover { 
+    background-color: rgb(112,139,166);
+}
+
+#thepoem {
+    margin-left: 60px;
+}
+
+#interests p {
+    margin-left: 30px;
+    width: 500px;
+}
+
+.footer {
+    height: 60px;
+    background-color: rgb(78,103,133);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+}
+
+.content {
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 60vw;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+table {
+    border: 1px solid;
+    border-spacing: 3px;
+    margin-bottom: 60px;
+}
+
+td {
+    width: 90px;
+    text-align: center;
+    border: 1px solid;
+    padding: 3px;
+}
+
+#cs2420 {
+    color: yellowgreen;
+}
+
+#comm2110 {
+    color: turquoise;
+}
+
+#homework {
+    color: tomato;
+}
+
+#work {
+    color: teal;
+}
+
+#cs2550 {
+    color: violet;
+}
+
+#cs2810 {
+    color: wheat;
+}
